@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +12,7 @@
     --cor1: #05d3f8;
     --cor2: #009ddd;
     --cor3: #386dbd;
-    --cor4: #0f4571;
+    --cor4: #03a9f4;
     --cor5: #3a3132;
 }
 
@@ -67,9 +68,18 @@
     box-shadow: 0px 10px 40px #00000056;
 }
 
-.card-login > h1 {
-    color: var(--cor2);
+.title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.title > h1 {
+    color: #caf729;
     font-weight: 800;
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
 }
 
 .formulario {
@@ -128,9 +138,11 @@
 
 .formulario-genero .titulo-genero {
     width: 100%;
-    height: 50%;
+    height: 48%;
     font-size: 17px;
-    color: white
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
 .genero-inputs {
@@ -141,19 +153,21 @@
     background-color: #514869;
     border-radius: 10px;
     padding: 15px;
-    color: white;
+    color: #f0ffffde;
 }
 
 .btn-continuar {
     width: 100%;
     padding: 16px 0;
-    margin: 25px;
+    margin-top: 10%;
     border: none;
     border-radius: 8px;
     outline: none;
     font-weight: 800;
-    color: #2b134b;
-    background-color: var(--cor2);
+    font-size: 15px;
+    color: #000000;
     cursor: pointer;
     box-shadow: 0px 10px 40px var(--cor3);
+    letter-spacing: 5px;
+    font-weight: bold;
 }
